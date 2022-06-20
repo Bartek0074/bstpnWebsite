@@ -1,0 +1,28 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+}
+.error{
+    font-size: 2.4rem;
+    padding: 2em;
+}
+
+@media (min-width:576px){
+    .error{
+        font-size: 3.6rem;
+    }
+}
+@media (min-width:992px){
+    .error{
+        font-size: 4.2rem;
+    }
+}

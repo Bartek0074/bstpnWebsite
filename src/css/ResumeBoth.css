@@ -1,0 +1,43 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ddd;
+}
+
+.language{
+    padding: 1em 1em 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.language .language__text {
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.language .language__btn{
+    padding-left: 0.25em;
+    text-transform: uppercase;
+    color: rgb(56, 121, 199);
+    cursor:pointer;
+    transition: color .3s;
+}
+
+.language .language__btn:hover{
+    color: rgb(27, 86, 159);
+}
+
+@media (min-width: 768px) {
+    .language .language__text {
+        font-size: 3rem;
+    }
+}
