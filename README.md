@@ -1,6 +1,14 @@
-# Hello
-Welcome to my simple CV website created with React.js.</br>
-You can see this website on https://bstpn.pl/</br>
+# bstpnWebsite
+
+My simple CV website.</br>
+
+⚙ Technology used:
+- HTML
+- SASS
+- BEM
+- ReactJS
+
+You can check this website on https://bstpn.pl/
 
 
 # Getting Started with Create React App
